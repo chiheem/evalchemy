@@ -83,7 +83,7 @@ dependencies = [
     "boto3",
     "botocore",
     "sagemaker",
-    "fsspec==2024.6.1",
+    "fsspec",
     "hf-transfer",
     "huggingface_hub[cli]",
     
@@ -120,7 +120,7 @@ dependencies = [
     "fire",
     "tiktoken",
     "ray[default]",
-    "backoff>=2.2",
+    "backoff",
     "docker-pycreds",
     "sentry-sdk",
     "loguru>=0.7",
