@@ -99,7 +99,7 @@ class AIME24Benchmark(BaseBenchmark):
 
                 all_instances.append(instance)
             print(f"Model: {model}", flush=True)
-            print(f{f"Instance: {all_instances[-1]}", flush=True)
+            print(f"Instance: {all_instances[-1]}", flush=True)
             # Generate model responses
             self.logger.info("Generating responses for AIME24...")
             outputs = self.compute(model, all_instances)
