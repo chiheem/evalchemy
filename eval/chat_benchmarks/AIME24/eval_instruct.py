@@ -98,7 +98,8 @@ class AIME24Benchmark(BaseBenchmark):
                 }
 
                 all_instances.append(instance)
-
+            self.logger.info(model)
+            self.logger.info(all_instances[-1])
             # Generate model responses
             self.logger.info("Generating responses for AIME24...")
             outputs = self.compute(model, all_instances)
